@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Rain Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rain-container" id="rain-container"></div>
+    <div class="lightning" id="lightning"></div>
+    <audio id="rain-sound" loop>
+        <source src="rain-sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="controls">
+        <label for="rain-intensity">Rain Intensity: </label>
+        <input type="range" id="rain-intensity" min="1" max="100" value="50">
+    </div>
+    <script src="functionality.js"></script>
+</body>
+</html>
